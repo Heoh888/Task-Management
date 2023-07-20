@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1B581EBE-96B9-4D53-81E4-1310BF2F7D76"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BDDB5C76-60B4-4645-A354-1B3F95DAB641"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/View/NewTaskView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B8DBB55-77E3-4B7D-8F31-0D80A4B1D4B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "Home"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "772E5CFB-B6FE-4A56-B7F5-B3AC3BC28EE4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/View/TasksView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "772E5CFB-B6FE-4A56-B7F5-B3AC3BC28EE4 - 81ee17ed68f0c5ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Task_Management.Task&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in Task_Management.TasksView.body.getter : some"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/View/TasksView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "772E5CFB-B6FE-4A56-B7F5-B3AC3BC28EE4 - 8b22b0a3a75c15a2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Task_Management.Task) -&gt; &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Task_Management.Task&gt;, Foundation.UUID, &lt;&lt;opaque return type of SwiftUI.View.background&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(alignment: SwiftUI.Alignment, content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0&gt; in Task_Management.TasksView.body.getter : some"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/View/TasksView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "332">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6E7C3DB2-EB9D-4725-A198-E6CF724D31E6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/View/TasksView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0CB0922A-31EE-4D3F-B075-386311EBAE86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/View/TasksView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0CB0922A-31EE-4D3F-B075-386311EBAE86 - cd587a79a79f5bb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Foundation.Date, Foundation.Date) -&gt; () in Task_Management.TasksView.body.getter : some"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/View/TasksView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "512">
+               </Location>
+               <Location
+                  uuid = "0CB0922A-31EE-4D3F-B075-386311EBAE86 - cd587a79a79f5bb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Foundation.Date, Foundation.Date) -&gt; () in Task_Management.TasksView.body.getter : some"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/View/TasksView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "0CB0922A-31EE-4D3F-B075-386311EBAE86 - cd587a79a79f5bb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Foundation.Date, Foundation.Date) -&gt; () in Task_Management.TasksView.body.getter : some"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/View/TasksView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "360">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "093E26D4-1326-4FCE-B3B9-6D24A555C040"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/View/TasksView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68AC65CE-1A3D-4AB6-820A-54101E4D60A5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Home/View/Home.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "heaerView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B90A6C8-EAF3-44A6-8F84-1B4B527F41E7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../../../../private/var/folders/2s/mvjt3dcd4cjgz3ztpv491wlh0000gn/T/swift-generated-sources/@__swiftmacro_15Task_Management0A0C2id17PersistedPropertyfMa_.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1"
+            landmarkName = "id"
+            landmarkType = "37">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBD58C25-FAC7-476A-8118-C2A92FA8210C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/View/TasksView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F59B5A2-B5D4-4438-8156-7FF0C67758E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "fetchTask()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F59B5A2-B5D4-4438-8156-7FF0C67758E9 - 10525cded9f78f31"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_Management.TasksViewModel.fetchTask() -&gt; ()"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "7F59B5A2-B5D4-4438-8156-7FF0C67758E9 - 10525cded9f7914d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_Management.TasksViewModel.fetchTask() -&gt; ()"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4A07570-1E08-4220-9148-58853D55FE7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(networkService:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4A07570-1E08-4220-9148-58853D55FE7C - 757735544cd9e2e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;Task_Management.Task&gt;) -&gt; () in Task_Management.TasksViewModel.init(networkService: Task_Management.NetworkServiceProtocol) -&gt; Task_Management.TasksViewModel"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+               <Location
+                  uuid = "E4A07570-1E08-4220-9148-58853D55FE7C - 757735544cd9e562"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;Task_Management.Task&gt;) -&gt; () in Task_Management.TasksViewModel.init(networkService: Task_Management.NetworkServiceProtocol) -&gt; Task_Management.TasksViewModel"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1424">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "95A5DCA5-443C-48EC-B6AB-5EE6C90D9C73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Service/LocalDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchTasks()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "95A5DCA5-443C-48EC-B6AB-5EE6C90D9C73 - 5fd804ee130474a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_Management.LocalDataService.fetchTasks() -&gt; ()"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Service/LocalDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "95A5DCA5-443C-48EC-B6AB-5EE6C90D9C73 - 5fd804ee130474a5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Task_Management.LocalDataService.fetchTasks() -&gt; ()"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Service/LocalDataService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82E50533-CA28-492C-A426-6FC60EA6A678"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Service/LocalDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "deleteTask(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45E50786-A896-4127-9605-465ECEA8A91A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Service/LocalDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "deleteTask(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D288317F-93AD-4884-8A8A-D6D14D2BE518"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Flow/Tasks/ViewModel/TasksViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "init(networkService:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F937BEB-4150-4CF8-A820-313A6A9AACA3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Service/NetworkService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "listensToCollection()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F937BEB-4150-4CF8-A820-313A6A9AACA3 - db3288db92aa7085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task_Management.NetworkService.listensToCollection() -&gt; ()"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "0F937BEB-4150-4CF8-A820-313A6A9AACA3 - db3288db92aa7085"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Task_Management.NetworkService.listensToCollection() -&gt; ()"
+                  moduleName = "Task Management"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksejhodakov/Documents/Library%20GitHub/Features/SwiftUI/Kavsoft/Task%20Management/Task%20Management/Service/NetworkService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "128">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "089C2D85-BA8B-46B7-99CA-665A83990C3E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Task Management/Service/LocalDataService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "deleteTask(task:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
