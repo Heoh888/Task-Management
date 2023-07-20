@@ -47,7 +47,7 @@ extension Date {
             }
         }
         return week
-     }
+    }
     
     func createNextWeek() -> [WeekDay] {
         let calendar = Calendar.current

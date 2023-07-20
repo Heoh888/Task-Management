@@ -13,9 +13,10 @@ import Combine
 @Observable
 class LocalDataService {
     var modelContext: ModelContext? = nil
-    var tasks = PassthroughSubject<[Task], Error>()
-    var createTask = PassthroughSubject<Task, Error>()
-    var deleteTask = PassthroughSubject<Task, Error>()
+    
+    var tasks = PassthroughSubject<[Task], Never>()
+    var createTask = PassthroughSubject<Task, Never>()
+    var deleteTask = PassthroughSubject<Task, Never>()
     
     func fetchTasks() {
         let descriptor = FetchDescriptor<Task>()
@@ -31,6 +32,12 @@ class LocalDataService {
         fetchTasks()
     }
     
+    func addedTasks(task: Task) {
+        modelContext?.insert(task)
+        try? modelContext?.save()
+        fetchTasks()
+    }
+    
     func deleteTask(task: Task) {
         modelContext?.delete(object: task)
         fetchTasks()
@@ -38,8 +45,8 @@ class LocalDataService {
     }
     
     func deleteTask(task: TaskNetwork) {
-        let resultPredicate2 = NSPredicate(format: "id = %@", task.id!)
-        guard (try? modelContext?.delete(model: Task.self, where: resultPredicate2)) != nil else { return }
+        let predicate = NSPredicate(format: "id = %@", task.id!)
+        guard (try? modelContext?.delete(model: Task.self, where: predicate)) != nil else { return }
         fetchTasks()
     }
 }

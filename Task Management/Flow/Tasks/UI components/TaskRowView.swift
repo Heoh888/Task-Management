@@ -35,7 +35,7 @@ struct TaskRowView: View {
                     .fontWeight(.semibold)
                     .strikethrough(task.isComplited, pattern: .solid, color: .black)
                 
-                Label(task.creationDate.format("hh:mm a"), systemImage: "clock")
+                Label(task.creationDate.format("HH:mm"), systemImage: "clock")
                     .font(.caption)
                     .foregroundStyle(.black)
             }

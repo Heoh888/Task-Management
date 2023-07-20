@@ -11,62 +11,35 @@ import FirebaseFirestoreCombineSwift
 import Combine
 
 protocol NetworkServiceProtocol {
-    var newTasks: PassthroughSubject<TaskNetwork, Error> { get set }
-    var modifiedTask: PassthroughSubject<TaskNetwork, Error> { get set }
-    var deleteTask: PassthroughSubject<TaskNetwork, Error> { get set }
-    func setData(id: String, data: [String: Any])
-    func updateData(id: String, data: [String : Any])
-    func getData() -> Future<[TaskNetwork], Error>
+    var addedTasks: PassthroughSubject<TaskNetwork, Never> { get set }
+    var modifiedTask: PassthroughSubject<TaskNetwork, Never> { get set }
+    var deleteTask: PassthroughSubject<TaskNetwork, Never> { get set }
+    func setData(taskId: String, data: [String: Any])
+    func updateData(taskId: String, data: [String : Any])
     func listensToCollection()
-    func deleteData(id: String)
+    func deleteData(taskId: String)
 }
 
 class NetworkService: NetworkServiceProtocol {
     
-    var newTasks = PassthroughSubject<TaskNetwork, Error>()
-    var modifiedTask = PassthroughSubject<TaskNetwork, Error>()
-    var deleteTask = PassthroughSubject<TaskNetwork, Error>()
+    var addedTasks = PassthroughSubject<TaskNetwork, Never>()
+    var modifiedTask = PassthroughSubject<TaskNetwork, Never>()
+    var deleteTask = PassthroughSubject<TaskNetwork, Never>()
+    
     private var cancellables = Set<AnyCancellable>()
     
-    func setData(id: String, data: [String: Any]) {
-        Constants.FireBase.collectionTasks.document(id).setData(data)
-            .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
-                switch completion {
-                case .finished: print("🏁 finished")
-                case .failure(let error): print("❗️ failure: \(error)")
-                }
-            }, receiveValue: { _ in })
-            .store(in: &cancellables)
+    func setData(taskId: String, data: [String: Any]) {
+        Constants.FireBase.collectionTasks.document(taskId).setData(data) { error in
+            guard let error = error else { return }
+            print("❗️\(#function): \(error.localizedDescription)")
+        }
     }
     
-    func updateData(id: String, data: [String : Any]) {
-        Constants.FireBase.collectionTasks.document(id).updateData(data)
-            .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
-                switch completion {
-                case .finished: print("🏁 finished")
-                case .failure(let error): print("❗️ failure: \(error)")
-                }
-            }, receiveValue: { _ in })
-            .store(in: &cancellables)
-    }
-    
-    func getData() -> Future<[TaskNetwork], Error> {
-        return Future({ promise in
-            Constants.FireBase.collectionTasks.getDocuments { querySnapshot, error in
-                var data: [TaskNetwork] = []
-                if let error = error {
-                    promise(.failure(error))
-                } else {
-                    for document in querySnapshot!.documents {
-                        guard let task = try? document.data(as: TaskNetwork.self) else { return }
-                        data.append(task)
-                    }
-                }
-                promise(.success(data))
-            }
-        })
+    func updateData(taskId: String, data: [String : Any]) {
+        Constants.FireBase.collectionTasks.document(taskId).updateData(data) { error in
+            guard let error = error else { return }
+            print("❗️\(#function): \(error.localizedDescription)")
+        }
     }
     
     func listensToCollection() {
@@ -76,7 +49,7 @@ class NetworkService: NetworkServiceProtocol {
                 switch diff.type {
                 case .added:
                     guard let task = try? diff.document.data(as: TaskNetwork.self) else { return }
-                    self.newTasks.send(task)
+                    self.addedTasks.send(task)
                 case .modified:
                     guard let task = try? diff.document.data(as: TaskNetwork.self) else { return }
                     self.modifiedTask.send(task)
@@ -88,15 +61,10 @@ class NetworkService: NetworkServiceProtocol {
         }
     }
     
-    func deleteData(id: String) {
-        Constants.FireBase.collectionTasks.document(id).delete()
-            .receive(on: RunLoop.main)
-            .sink(receiveCompletion: { completion in
-                switch completion {
-                case .finished: print("🏁 finished")
-                case .failure(let error): print("❗️ failure: \(error)")
-                }
-            }, receiveValue: { _ in })
-            .store(in: &cancellables)
+    func deleteData(taskId: String) {
+        Constants.FireBase.collectionTasks.document(taskId).delete() { error in
+            guard let error = error else { return }
+            print("❗️\(#function): \(error.localizedDescription)")
+        }
     }
 }

@@ -19,7 +19,7 @@ struct Home: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 0, content: {
-            heaerView()
+            headerView()
             
             ScrollView(.vertical) {
                 VStack {
@@ -66,7 +66,7 @@ struct Home: View {
         })
     }
     
-    func heaerView() -> some View {
+    func headerView() -> some View {
         VStack(alignment: .leading, spacing: 6) {
             HStack(spacing: 5) {
                 Text(currentDate.format("MMMM"))
@@ -126,10 +126,10 @@ struct Home: View {
                         .font(.callout)
                         .fontWeight(.bold)
                         .textScale(.secondary)
-                        .foregroundStyle(isSmeDate(day.date, currentDate) ? .white : .gray)
+                        .foregroundStyle(isSameDate(day.date, currentDate) ? .white : .gray)
                         .frame(width: 35, height: 35)
                         .background {
-                            if isSmeDate(day.date, currentDate) {
+                            if isSameDate(day.date, currentDate) {
                                 Circle()
                                     .fill(.darkBlue)
                                     .matchedGeometryEffect(id: "TABINDICATOR", in: animation)
